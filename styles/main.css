@@ -1,3 +1,448 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*Header*/
+header{
+    display:  flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+header > h2{
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+header > nav{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+nav > ul{
+    display: flex;
+    gap: 8px;
+}
+
+
+
+
+/*Main*/
+
+
+
+/*awsome*/
+
+.awesome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 24px;
+}
+
+
+/*awsome-text*/
+
+.awesome__text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+
+}
+
+.awesome__text h2{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.awesome__text p{
+
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.text-btn{
+    
+    width: 50%;
+    
+}
+
+.text-btn button{
+    padding: 8px 16px;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: 900;
+
+    
+}
+
+/*awsome-img*/
+
+.awesome__img img{
+    width: 100%;
+}
+
+
+
+/*random*/
+
+.random{
+   
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.random__information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.random__information > div{
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+    
+}
+
+.random h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.random__information img {
+    width: 150px;
+    height: 150px;
+    border-radius: 16px;
+}
+
+
+/*inspiring*/
+
+.inspiring{
+    padding: 48px 80px;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+
+
+.inspiring p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+
+
+
+/*call*/
+
+.call{
+   
+    padding: 48px 80px;
+    text-align: center;
+    background-color: white;
+}
+
+.call__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 48px;
+    background-color: #3882F6;
+    border-radius: 16px;
+}
+.call__button-text{
+    color: white;
+}
+
+.call__button h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+ .white{
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 64px;
+    color: white;
+    background-color: #1F2937;
+}
+
+footer > p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+/*Responsive*/
+
+
+@media screen and (min-width:800px) {
+
+
+    /*Header*/
+header{
+    display:  flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+
+header > h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+header > nav{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+nav > ul{
+    display: flex;
+    gap: 32px;
+}
+
+
+
+/*awsome*/
+
+.awesome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 80px 120px;
+}
+
+
+/*awsome-text*/
+
+.awesome__text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+
+
+}
+
+.awesome__text h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.awesome__text p{
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.text-btn{
+    width: 30%;
+    
+}
+
+.awesome__text-btn button{
+    padding:8px 16px;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 900;
+
+    
+}
+
+/*awsome-img*/
+
+.awesome__img img{
+    width: 100%;
+}
+
+
+
+/*random*/
+
+.random{
+   
+    padding:80px 104px ;
+}
+
+.random__information{
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.random__information > div{
+    border: 6px solid #3882F6;
+    border-radius: 16px;
+    
+}
+
+.random h2{
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.random__information img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+
+
+
+/*inspiring*/
+
+.inspiring{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 160px;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+
+
+.inspiring p{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 50%;
+
+    
+  
+    
+}
+
+
+
+/*call*/
+
+.call{
+   
+    padding: 48px 80px;
+    text-align: center;
+    background-color: white;
+}
+
+.call__button{
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 48px;
+    background-color: #3882F6;
+    border-radius: 16px;
+}
+
+.call__button h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.white{
+    border: 1px solid white;
+    width: 30%;
+}
+
+
+
+/*Footer*/
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 80px;
+    color: white;
+    background-color: #1F2937;
+}
+
+footer > p{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+    
+}
